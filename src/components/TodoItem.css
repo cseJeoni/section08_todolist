@@ -1,0 +1,25 @@
+.TodoItem {
+    display: flex;
+    flex: 1;
+    padding-bottom: 20px;
+    gap: 20px;
+    align-items: center;
+    border-bottom: 1px solid rgb(220,220,220);
+}
+
+.TodoItem .content {
+    flex: 1;
+}
+
+.TodoItem .date {
+    color: #808080;
+}
+
+.TodoItem > button {
+    background-color: #f0f0f0;
+    color: #808080;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    cursor: pointer;
+}
